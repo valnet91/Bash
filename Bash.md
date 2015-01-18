@@ -44,6 +44,35 @@ $ history puis Entrée
 ```bash
 $ cat nom_de_fichier.txt puis Entrée
 ```
+
+#
+### 📢 Commande : grep "test"
+    -Permet de voir/lire le contenu du fichier.
+```bash
+$ cat nom_de_fichier.txt puis Entrée
+```
+
+#
+### 📢 Commande raccourci : grep "test" le terminal est bloqué !?
+    -Permet de revenir à un terminal propre.
+```bash
+$ Ctrl + Maj + D fermera votre terminal en cours et en ouvrira un autre. Faites un  `pwd` pour savoir dans quel répertoire vous êtes.
+```
+
+#
+### 📢 Commande : ls | grep nom_de_fichier.txt
+    -Listera le fichier README.md si il est présent dans le répertoire courant.
+```bash
+$ ls | grep nom_de_fichier.txt puis Entrée
+```
+
+#
+### 📢 Commande : ls | grep .txt
+    -Listera les fichiers avec l'extension txt du répertoire courant.
+```bash
+$ ls | grep .txt puis Entrée
+```
+
 ex: cat README.md
 📢 cat nom_de_fichier
 ex: cat README.md
