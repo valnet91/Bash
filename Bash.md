@@ -45,12 +45,7 @@ $ history puis Entrée
 $ cat nom_de_fichier.txt puis Entrée
 ```
 
-#
-### 📢 Commande : grep "test"
-    -Permet de voir/lire le contenu du fichier.
-```bash
-$ cat nom_de_fichier.txt puis Entrée
-```
+
 
 #
 ### 📢 Commande raccourci : grep "test" le terminal est bloqué !?
@@ -73,7 +68,16 @@ $ ls | grep nom_de_fichier.txt puis Entrée
 $ ls | grep .txt puis Entrée
 ```
 
-ex: cat README.md
-📢 cat nom_de_fichier
-ex: cat README.md
-@octocat :+100: This PR looks great - it's ready to merge! :shipit:
+#
+### 📢 Commande : echo votre_texte >> nom_de_fichier.txt
+    -Listera les fichiers avec l'extension txt du répertoire courant.
+```bash
+$ echo texte1 >> test.txt puis Entrée
+$ echo Ajout de texte2  à mmon texte1 >> test.txt puis Entrée
+`>>` le double chevron fermant permet de faire un ajout à la suite du texte1 déjà existant -> cf 'append'
+```
+
+; ex: cat README.md
+; 📢 cat nom_de_fichier
+; ex: cat README.md
+; @octocat :+100: This PR looks great - it's ready to merge! :shipit:
