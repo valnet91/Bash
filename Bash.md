@@ -22,7 +22,7 @@ $ ls puis Entrée
 ```
 #
 ### 📢 Commande : ls -la
-    -Liste les fichiers, les dossiers et les fichiers et dossiers cachés présent dans le répertoire.
+    -Liste les fichiers, les dossiers et les fichiers et dossiers cachés (dont le nom commence par un point et les attibuts des fichiers `chmod`) présent dans le répertoire.
 ```bash
 $ ls -la puis Entrée
 ```
