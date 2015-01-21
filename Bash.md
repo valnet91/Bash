@@ -22,20 +22,20 @@ $ ls puis Entrée
 ```
 #
 ### 📢 Commande : ls -la
-    -Liste les fichiers, les dossiers et les fichiers et dossiers cachés (dont le nom commence par un point et les attibuts des fichiers `chmod`) présent dans le répertoire.
+    -Liste les fichiers, les dossiers et les fichiers et dossiers cachés (dont le nom commence par un point et les attibuts des fichiers et dossiers `chmod`) présent dans le répertoire.
 ```bash
 $ ls -la puis Entrée
 ```
 #
 ### 📢 Commande : clear
     -Permet de nettoyer son écran.
-```bash
+```sh
 $ clear puis Entrée
 ```
 #
 ### 📢 Commande : history
     -Permet de lister les x (500) dernières commandes que vous avez saisies.
-```bash
+```shell
 $ history puis Entrée
 ```
 #
