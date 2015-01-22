@@ -29,7 +29,7 @@ $ ls -la puis Entrée
 #
 ### 📢 Commande : clear
     -Permet de nettoyer son écran.
-```sh
+```shell
 $ clear puis Entrée
 ```
 #
