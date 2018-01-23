@@ -17,7 +17,17 @@ Ainsi, une commande fréquente et longue sera rendue accessible en tapant un sim
 ```bash
 $ alias puis Entrée
 ```
+
+```sh
 alias ipython='winpty ipython.exe'
 alias ll='ls -l'
 alias ls='ls -F --color=auto --show-control-chars'
 alias php='winpty php.exe'
+```
+
+```zsh
+alias ipython='winpty ipython.exe'
+alias ll='ls -l'
+alias ls='ls -F --color=auto --show-control-chars'
+alias php='winpty php.exe'
+```
