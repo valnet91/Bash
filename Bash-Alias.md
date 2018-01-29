@@ -13,7 +13,7 @@
 
 --- Les alias permettent de définir des raccourcis pour des commandes longues ou répétitives.
 Ainsi, une commande fréquente et longue sera rendue accessible en tapant un simple mot clé prédéfini par le système ou que nous aurons créé (raccourcis).
-    -Permet de vérifier, de connaitre les alias dans votre programme Bash.
+    -Permet de vérifier, de connaître les alias dans votre programme Bash.
 ```bash
 $ alias puis Entrée
 ```
