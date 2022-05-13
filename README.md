@@ -25,7 +25,7 @@ gitGraph
       commit
 ```
 
-``` Mermaid
+```mermaid
 graph TD
 A[Create Branch] -->|Push| B(Create PR)
 B --> C{Trigger Build}
