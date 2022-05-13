@@ -40,7 +40,7 @@ A((HI))
 ```
 
 ```mermaid
-graph TB;
+graph TD;
 A(C'est parti.) --> B{Si vous êtes connecté}
 B --- Oui. --> C[Aller à la page d'accueil]
 B -- Non --> D[ Invite à ouvrir une session ]
