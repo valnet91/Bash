@@ -61,10 +61,35 @@ flowchart LR
 	classDef rouge fill: #F00
 A(Toutes mon Activités) --> B(tâches)
 B --> Projets & C(Tâches complexes) & D(Tâches unitaires)
-B --> E(Tâches au lng court):::rouge
+B --> E(Tâches au long court):::rouge
 B --> F(Livrables)
 
 A --> G(Rendez-vous)
 G -. Sujets .-> B
 G -. Actions .-> B
+```
+```mermaid
+graph TD
+    A[Choosing an OS] --> B{Do you fear technology ?}
+    B -->|Yes| C{Is your daddy rich ?}
+    C -->|Yes| E(fa:fa-apple Mac OS);
+    C -->|No| F(fa:fa-chrome Chrome OS);
+    
+    B -->|No| D{Do you care about freedom/privacy ?}
+    D -->|Yes| G{Do you have a life ?}
+    D -->|No| H(fa:fa-windows Windows);
+    
+    G -->|Yes| I(fa:fa-ubuntu Ubuntu);
+    G -->|Yes| K(fa:fa-fedora Fedora);
+    G -->|No| L(fa:fa-linux Archlinux);
+    G -->|No| M(fa:fa-shield Backtrack);
+
+    style A fill:#0094FF,stroke:#333,stroke-width:4px,color:#fff
+    style E fill:#808080,stroke:#333,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+    style F fill:#808080,stroke:#333,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+    style H fill:#004A7F,stroke:#333,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+    style I fill:#FF6A00,stroke:#333,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+    style K fill:#FF6A00,stroke:#333,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+    style L fill:#7F0000,stroke:#333,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+    style M fill:#7F0000,stroke:#333,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
 ```
