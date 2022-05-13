@@ -32,7 +32,7 @@ B --> C{Trigger Build}
 C -->|Passes | E{Release branch}
 E -->|Pr/feature | F[s3 demo bucket]
 E -->|master | G[s3 prod bucket]
-click F "http://www.baidu.com"
+F[an <b>important</b> <a href='http://google.com'>link</a>]
 ```
 
 ```mermaid
