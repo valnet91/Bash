@@ -6,6 +6,13 @@ category: Débutant
 ---
 
 ![Langage: BASH](Gnu-bash-logo.svg.png)
+# Exemple de Mair med en français
+
+```mermaid
+  gitGraph
+      commit
+      commit
+```     
 
 ```mermaid
   graph TD;
