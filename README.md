@@ -21,12 +21,18 @@ A --> B
 
 ```mermaid
 flowchart LR
-A(Toutes mon Activités) --> B(tâches)
+A(Toutes mon Activités) --> B (tâches)
 B --> Projets & C(Tâches complexes) & D(Tâches unitaires)
 ```
 
 ```mermaid
-flowchart LT
-A(Toutes mon Activités) --> B(tâches)
+flowchart RL
+A(Toutes mon Activités) --> B (tâches)
+B --> Projets & C(Tâches complexes) & D(Tâches unitaires)
+```
+
+```mermaid
+flowchart TD
+A(Toutes mon Activités) --> B (tâches)
 B --> Projets & C(Tâches complexes) & D(Tâches unitaires)
 ```
