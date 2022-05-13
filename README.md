@@ -38,17 +38,17 @@ gitGraph
  en>Goodbye!]
 A((HI))
 ```
+
 ```mermaid
 graph TB
-A(C'est parti.)-->B{
-    Si vous êtes connecté}
+A(C'est parti.)-->B{Si vous êtes connecté}
 B--- Oui.-->C[Aller à la page d'accueil]
 B--Non-->D[ Invite à ouvrir une session ]
 C & D-->E(Fin)
-
 F[ Noeuds qui peuvent sauter ];
 click F "http://www.baidu.com"
 ```
+
 ```mermaid
   graph TD;
       A-->B;
