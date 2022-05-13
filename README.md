@@ -27,11 +27,11 @@ gitGraph
 
 ``` Mermaid
 graph TD
-	A[Create Branch] -->|Push| B(Create PR)
-	B --> C{Trigger Build}
-	C -->|Passes | E{Release branch}
-    E -->|Pr/feature | F[s3 demo bucket]
-    E -->|master | G[s3 prod bucket]
+A[Create Branch] -->|Push| B(Create PR)
+B --> C{Trigger Build}
+C -->|Passes | E{Release branch}
+E -->|Pr/feature | F[s3 demo bucket]
+E -->|master | G[s3 prod bucket]
 ```
 
 ```mermaid
