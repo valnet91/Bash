@@ -30,6 +30,14 @@ gitGraph
       commit
       commit
 ```     
+```mermaid
+ graph TD 
+ st{HI!}
+ good((Great))
+ bad((Mizzz))
+ en>Goodbye!]
+A((HI))
+```
 
 ```mermaid
   graph TD;
