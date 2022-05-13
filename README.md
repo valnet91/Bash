@@ -6,3 +6,11 @@ category: Débutant
 ---
 
 ![Langage: BASH](Gnu-bash-logo.svg.png)
+
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
