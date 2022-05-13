@@ -141,3 +141,18 @@ c2-->a1
 classDef className fill:#f9f,stroke:#333,stroke-width:4px
 class start,a1,a2,a3 className;
 ```
+
+```mermaid
+gantt
+axisFormat %e%b
+todayMarker on
+section Activity 1
+    TaskA	: TA, 2021-06-14, 4d
+    TaskB	: TB, after TA, 2d
+section Activity 2
+    TaskC	: TC, after TA, 3d
+    TaskD	: TD, after TC, 2d
+section Activity 3
+    TaskE	: TE, after TD, 1d
+    TaskF	: TF, after TE, 2d
+```
