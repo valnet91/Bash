@@ -40,13 +40,23 @@ A((HI))
 ```
 
 ```mermaid
-graph TD
-A(C'est parti.) --> B{Si vous êtes connecté}
-B --- Oui. --> C[Aller à la page d'accueil]
-B -- Non --> D[ Invite à ouvrir une session ]
-C & D --> E(Fin)
-F[ Noeuds qui peuvent sauter ]
-click 
+gitGraph:
+options
+{
+    "nodeSpacing": 150,
+    "nodeRadius": 10
+}
+end
+commit
+branch newbranch
+checkout newbranch
+commit
+commit
+checkout master
+commit
+commit
+merge newbranch
+```
 
 ```mermaid
   graph TD;
