@@ -56,3 +56,15 @@ flowchart TD
 	id12 -- Oui --> id13[Effecturer la délégation]
 	id12 -- Non --> id14[Reporter]
   ```
+```mermaid
+flowchart LR
+	classDef rouge fill: #F00
+A(Toutes mon Activités) --> B(tâches)
+B --> Projets & C(Tâches complexes) & D(Tâches unitaires)
+B --> E(Tâches au lng court):::rouge
+B --> F(Livrables)
+
+A --> G(Rendez-vous)
+G -. Sujets .-> B
+G -. Actions .-> B
+```
