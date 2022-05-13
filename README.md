@@ -14,3 +14,7 @@ category: Débutant
       B-->D;
       C-->D;
 ```
+```mermaid
+flowchart LR
+A --> B
+```
