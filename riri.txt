@@ -1,4 +1,8 @@
 riri
 Bob a fait une modif
 Merci bob de JJ
+<<<<<<< HEAD
 entre temps JJ à fait de modifs
+=======
+de rien de Bob
+>>>>>>> 5410b53bb81b652dc5cdf02bea4c71b4725d1836
