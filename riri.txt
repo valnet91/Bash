@@ -7,5 +7,9 @@ merge en local
 puis après  git push
 nano
 ajout de texte github, sans modif en local
+<<<<<<< HEAD
 je modifie mais bob bosse aussi sur le projet
 
+=======
+att jj je bosse aussi de mon côté
+>>>>>>> e1bc39d6d5bd23f5dd962233c618bb6ede8a86b8
