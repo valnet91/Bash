@@ -7,3 +7,4 @@ merge en local
 puis après  git push
 nano
 ajout de texte github, sans modif en local
+att jj je bosse aussi de mon côté
